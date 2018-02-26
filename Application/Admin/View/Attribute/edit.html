@@ -1,0 +1,37 @@
+<!--添加栏目-->
+<div class="dialog_content">
+	<form id="info_form" action="{:U('Attribute/edit',array('type_id'=>$typeId,'p'=>I('get.p',1)))}" method="post">
+		<table width="100%" class="table_form">
+
+			<tr>
+				<td class="label" align="center">所在的类型的id：
+					<select name="type_id" id="">
+						<option value="">选择类型</option>
+						<volist name="typeData" id="val">
+							<option <if condition="$typeId eq $val['id']">selected="selected"</if> value="{$val.id}" >{$val.type_name}</option>
+						</volist>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="label" align="center">属性名称：<input type="text" name="attr_name" value="{$data.attr_name}"/></td>
+			</tr>
+			<tr>
+				<td class="label" align="center">属性类型：{$data.attr_type}
+					<label><input <if condition="0 eq $data['arrt_type']">selected</if> type="radio" name="attr_type" value="0"/>唯一</label>
+						<label><input  <if condition="$data['attr_type'] eq 1">selected</if> type="radio" name="attr_type" value="1"/>可选</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="label" align="center">属性可选值：<input placeholder="逗号隔开" type="text" name="attr_option_values" value="{$data.attr_option_values}"/></td>
+			</tr>
+			<tr>
+				<td colspan="99" align="center">
+					<input type="submit" class="button" value=" 确定 "/>
+					<input type="reset" class="button" value=" 重置 "/>
+				</td>
+			</tr>
+		</table>
+		<input type="hidden" name="id" value="{$data.id}">
+	</form>
+</div>

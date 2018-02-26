@@ -1,0 +1,280 @@
+<include file="public:header" />
+<style>
+	#img_ul li{
+		/*list-style-type: none;*/
+		float: left;
+		margin:5px;
+	}
+</style>
+<script charset="utf-8" src="__PUBLIC__/weixin/js/jquery.js" type="text/javascript"></script>
+<script>
+    $(function(){
+
+        $('#express').change(function(){
+            if($(this).val()==1)
+            {
+                $('#address_form').show();
+            }else
+            {
+                $('#address_form').hide();
+            }
+        });
+        set_address();
+    })
+
+    function set_address()
+    {
+        var addr_id =$("#express").find("option:selected").val();
+
+        if(addr_id == 1)
+        {
+
+            $('#address_form').show();
+        }
+        else
+        {
+            $('#address_form').hide();
+
+        }
+    }
+</script>
+<!--添加商品-->
+<div class="subnav">
+	<h1 class="title_2 line_x">添加商品</h1>
+</div>
+<form id="info_form" action="{:u('Goods/edit')}" method="post" enctype="multipart/form-data">
+	<div class="pad_lr_10">
+		<div class="col_tab">
+			<ul class="J_tabs tab_but cu_li">
+				<li class="current">基本信息</li>
+				<li>展示图片</li>
+				<li>附加属性</li>
+			</ul>
+			<div class="J_panes">
+				<div class="content_list pad_10">
+					<table width="100%" cellpadding="2" cellspacing="1" class="table_form">
+						<tr>
+							<th width="120">所属分类 :</th>
+							<td>
+								<select name="cat_id" class="J_cate_select mr10" data-pid="0" data-uri="{:U('item_cate/ajax_getchilds', array('type'=>0))}" data-selected="">
+									<volist name="catData" id="val">
+										<option <if condition="$val.id eq $data['cat_id']">selected="selected"</if> value="{$val.id}">{$val.cat_name}</option>
+									</volist>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>商品名称 :</th>
+							<td><input type="text" name="goods_name" id="J_title" class="input-text" size="60" value="{$data.goods_name}"></td>
+						</tr>
+						<tr>
+							<th>商品简介 :</th>
+							<td><textarea name="goods_intro" cols="80" rows="2">{$data.goods_intro}</textarea></td>
+						</tr>
+						<tr>
+							<th>商品图片 :</th>
+							<td><input type="file" name="img" /><img src="{:showImage($data['sm_img'])}" alt=""></td>
+
+						</tr>
+
+						<tr>
+							<th>商品价格 :</th>
+							<td><input value="{$data.price}" id='J_price' onkeyup="this.value=this.value.replace(/[^0-9.]/g,'')" onafterpaste="this.value=this.value.replace(/[^0-9.]/g,'')" type="text" name="price" class="input-text" size="10"> 元</td>
+						</tr>
+						<tr>
+							<!--<th>是否推荐:</th>--><td></td>
+
+							<td><input <if condition="$data.is_new eq 1">checked="checked"</if> type="checkbox" name="is_new" value="1">新品&nbsp;
+								<input <if condition="$data.is_hot eq 1">checked="checked"</if> type="checkbox" name="is_hot" value="1">热卖
+								<?php $checked='checked'; $data['is_on_sale']?:$checked='';?>
+								<input type="checkbox" <?php echo $checked; ?> name="is_on_sale" value="1">上架
+							</td>
+						</tr>
+						<tr>
+							<th>运费:</th>
+							<td>
+								<select id='express' name="express">
+									<option value="0">卖家承担运费</option>
+									<option <?php if($data['freight']>0) echo 'selected="selected"' ?> value="1">买家承担运费</option>
+								</select>
+							</td>
+						</tr>
+						<tr id="address_form" style="display:none;">
+							<th></th>
+							<td>
+								运费:<input value="<?php echo $data['freight'] ?>" onkeyup="value=value.replace(/[^\d\.]/g,'')" type="text" name="freight" />
+						</tr>
+						<tr>
+							<th>商品详情 :</th>
+							<td><textarea name="goods_desc" id="info" style="width:68%;height:400px;visibility:hidden;resize:none;"><?php echo $data['goods_desc'];?></textarea></td>
+						</tr>
+					</table>
+				</div>
+				<div class="content_list pad_10 hidden">
+					<table width="100%" cellpadding="2" cellspacing="1" class="table_form" id="first_upload_file">
+						<tr>
+							<ul id="img_ul">
+								<volist name="goodsImgData" id="val">
+
+
+
+									<li><input img_id="{$val.id}" class="delimage" type="button" value="删除"><br>
+										<img src="{:showImage($val['sm_img'])}" alt=""></li>
+
+
+
+							</volist></ul>
+						</tr>
+						<tbody class="uplode_file">
+						<tr>
+							<th width="100"><a href="javascript:void(0);" class="blue" onclick="add_file();"><img src="__PUBLIC__/css/admin/bgimg/tv-expandable.gif" /></a> 上传图片 :</th>
+							<td><input type="file" name="imgs[]"></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- 属性页 -->
+				<div class="content_list pad_10 hidden">
+					<table width="100%" cellpadding="2" cellspacing="1" class="table_form" id="item_attr">
+						<tbody id="attr_container">
+						<volist name="attrData" id="val">
+                            <tr>
+                                <td>{$val.attr_name}:
+                                   <?php if($goodsAttrData):?>
+                                       <?php foreach($goodsAttrData as $k=>$v): ?>
+                                            <?php if($k == $val['id']):?>
+                                                <input value='{$v}' type="text" name="attr_id[{$val['id']}]">
+                                            <?php endif;?>
+                                        <?php endforeach; ?>
+                                    <?php else:?>
+                                        <input value='{$v}' type="text" name="attr_id[{$val['id']}]">
+                                    <?php endif; ?>
+                                </td>
+                            </tr>
+						</volist>
+						</tbody>
+						<tr>
+						</tr>
+					</table>
+				</div>
+			</div>
+            <input type="hidden" name="id" value="{:I('get.id')}">
+			<div class="mt10"><input type="submit" value="提交" class="btn btn_submit"></div>
+		</div>
+	</div>
+</form>
+
+<include file="public:footer" />
+<script type="text/javascript">
+    $('.J_cate_select').cate_select('请选择');
+    $(function() {
+        $('ul.J_tabs').tabs('div.J_panes > div');
+        //自动获取标签
+        $('#J_gettags').live('click', function() {
+            var title = $.trim($('#J_title').val());
+            if(title == ''){
+                $.pinphp.tip({content:lang.article_title_isempty, icon:'alert'});
+                return false;
+            }
+            $.getJSON('{:U("item/ajax_gettags")}', {title:title}, function(result){
+                if(result.status == 1){
+                    $('#J_tags').val(result.data);
+                }else{
+                    $.pinphp.tip({content:result.msg});
+                }
+            });
+        });
+        $.formValidator.initConfig({formid:"info_form",autotip:true});
+        $("#J_title").formValidator({onshow:'请填写商品名称',onfocus:'请填写商品名称'}).inputValidator({min:1,onerror:'请填写商品名称'});
+        $("#J_price").formValidator({onshow:'请填写商品价格',onfocus:'请填写商品价格'}).inputValidator({min:1,onerror:'请填写商品价格'});
+        $("#J_goods_stock").formValidator({onshow:'请填写商品库存',onfocus:'请填写商品库存'}).inputValidator({min:1,onerror:'请填写商品库存'});
+    });
+
+    function add_file()
+    {
+        $("#next_upload_file .uplode_file").clone().insertAfter($("#first_upload_file .uplode_file:last"));
+    }
+    function del_file_box(obj)
+    {
+        $(obj).parent().parent().remove();
+    }
+    function add_attr()
+    {
+        $("#hidden_attr .add_item_attr").clone().insertAfter($("#item_attr .add_item_attr:last"));
+    }
+    function del_attr(obj)
+    {
+        $(obj).parent().parent().remove();
+    }
+</script>
+<table id="next_upload_file" style="display:none;">
+	<tbody class="uplode_file">
+	<tr>
+		<th width="100"><a href="javascript:void(0);" onclick="del_file_box(this);" class="blue"><img src="__PUBLIC__/css/admin/bgimg/tv-collapsable.gif" /></a>上传文件 :</th>
+		<td><input type="file" name="imgs[]"></td>
+	</tr>
+	</tbody>
+</table>
+<table id="hidden_attr" style="display:none;">
+	<tbody class="add_item_attr">
+	<tr>
+		<th width="200">
+			<a href="javascript:void(0);" class="blue" onclick="del_attr(this);"><img src="__PUBLIC__/css/admin/bgimg/tv-collapsable.gif" /></a>属性名 :<input type="text" name="attr[name][]" class="input-text" size="20">
+		</th>
+		<td>属性值 :<input type="text" name="attr[value][]" class="input-text" size="30"></td>
+	</tr>
+	</tbody>
+</table>
+</body>
+</html>
+<script src="__PUBLIC__/js/kindeditor/kindeditor.js"></script>
+<script>
+
+    $(function() {
+        KindEditor.create('#info', {
+            uploadJson : '{:U("attachment/editer_upload")}',
+            fileManagerJson : '{:U("attachment/editer_manager")}',
+            allowFileManager : true
+        });
+        $('ul.J_tabs').tabs('div.J_panes > div');
+    });
+</script>
+
+
+<script>
+
+    //点击加号
+    function addnew(a){
+        //选中a所在的tr
+        var tr = $(a).parent().parent();
+        //获取a里面的内容
+        if($(a).html() == '<img src="__PUBLIC__/css/admin/bgimg/tv-expandable.gif">'){
+            //把tr克隆一份
+            var newTr = tr.clone();
+            //把克隆出来的 + 变成 -
+            newTr.find('a').html('<img src="__PUBLIC__/css/admin/bgimg/tv-collapsable.gif">');
+            //放在后面
+            tr.after(newTr);
+        }else{
+            tr.remove();
+        }
+    }
+
+    //删除图片
+	$(".delimage").click(function(){
+	   if(confirm('确定要删除吗？')){
+	       var img_id = $(this).attr('img_id');
+	       var li = $(this).parent();
+	       $.ajax({
+			   type:'GET',
+			   url:"{:U('Goods/ajaxDelImage','',FALSE)}/img_id/"+img_id,
+			   success:function(data){
+
+                   li.remove();
+			   }
+		   });
+
+	   }
+	});
+</script>
+

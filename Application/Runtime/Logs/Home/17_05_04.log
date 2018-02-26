@@ -1,0 +1,731 @@
+[ 2017-05-04T10:31:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a12c7cbb2d66b8bacb4becea50b4a588f241dce0&timestamp=1493865081&nonce=1873300471&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:31:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a12c7cbb2d66b8bacb4becea50b4a588f241dce0&timestamp=1493865081&nonce=1873300471&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:31:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a12c7cbb2d66b8bacb4becea50b4a588f241dce0&timestamp=1493865081&nonce=1873300471&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:33:07+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=1d204f579f98ffa526deb562bacfb8750efa19e1&timestamp=1493865197&nonce=464539273&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:33:41+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=e685ccdbff55cdc04edf58a10756dcbd63cb3466&timestamp=1493865230&nonce=210357701&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:34:30+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=aeabfb805dc2c177a4d85f3e72d8f29a8f4bf944&timestamp=1493865277&nonce=298360708&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:37:38+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a443bb029ec5f9fa20ee5c803c7653365aea74d3&echostr=1753551821803003902&timestamp=1493865468&nonce=2116846526
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:38:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:39:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=676e960d1d8542c61f7d25d6111acb72df228e58&echostr=4239175745370299864&timestamp=1493865560&nonce=488198398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:39:30+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=81d468415672f6597b7f96e3775f5b1797d16370&echostr=1603171165591486459&timestamp=1493865563&nonce=761576740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:39:41+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=be95ae0937fe48e2050b91991e44107116f4201c&timestamp=1493865585&nonce=797576417&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:39:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=fdf67c4540f4a5513055f36104584fb3f2dbfd6a&echostr=1621053344036404991&timestamp=1493865596&nonce=940089773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:39:54+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+ERR: Class 'WeChat' not found
+
+[ 2017-05-04T10:43:29+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+NOTIC: [8] Undefined index: echostr C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 8 行.
+NOTIC: [8] Undefined index: signature C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 59 行.
+NOTIC: [8] Undefined index: timestamp C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 60 行.
+NOTIC: [8] Undefined index: nonce C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 61 行.
+
+[ 2017-05-04T10:43:44+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=0fce2ac1755ab7ea023b66b49ace22668bea5883&echostr=8016056701490478571&timestamp=1493865835&nonce=1342591265
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+
+[ 2017-05-04T10:43:56+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=5cf6e270787e4e7d0125b1dff2e31a1428f517c7&timestamp=1493865844&nonce=1054418985&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+NOTIC: [8] Undefined index: echostr C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 8 行.
+
+[ 2017-05-04T10:44:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=46d8437d9e05c3cf060c3563e29d29d8835ed81a&timestamp=1493865863&nonce=568284062&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Controller\WechatController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T11:09:57+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=29b7e3697290644c1073f806ae6e47bbc8469b92&timestamp=1493867412&nonce=729144918&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Think\Controller:_requestPost方法不存在！
+
+[ 2017-05-04T11:10:08+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=24f2198868ae99a170915ef8ffb7842a6bd1141a&timestamp=1493867423&nonce=885528737&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Think\Controller:_requestPost方法不存在！
+
+[ 2017-05-04T11:12:34+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a243d63ef69d2687e15aea208f95ad74d22cb1fd&timestamp=1493867568&nonce=155553394&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:12:43+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a52c2da6f727c3293c8b8dbf7922bc1c254a6078&timestamp=1493867577&nonce=1460491349&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:14:17+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=8478df679b549e85f0370fb98c27d16cd27466eb&timestamp=1493867671&nonce=953930614&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:16:06+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=99abfe14f55cf7564c0a2f56db04ffb482be9127&timestamp=1493867780&nonce=193515280&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:17:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a2fcc25a691ad913230a938ccc5574f781d534a6&timestamp=1493867851&nonce=1306722548&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:17:26+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=7b164fce8935a085346a3d65ca6247f1223885bc&timestamp=1493867861&nonce=1009229700&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:17:29+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=54debdaed847fca58f639f429ba05c3eb3af02ed&timestamp=1493867864&nonce=1527018052&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:19:03+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=c4734a90a2cc6f2a1a223b77e3a5c34d6d74df65&timestamp=1493867957&nonce=3839992&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:20:53+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=c7111889a303de49e1f0e32d926783d6a614bd15&timestamp=1493868069&nonce=231724902&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:21:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=02cd4cb29ac47e94898859e66d3c911f0bcce7f7&timestamp=1493868077&nonce=1112399459&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:25:42+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=41968d219eed2c6f881f6d4d52e9b38824215ced&timestamp=1493868359&nonce=1066897502&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:32:35+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=b4a9a3ac1a093a09931da78ad4be0be92f697927&timestamp=1493868772&nonce=1983836957&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:41:00+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=d6b8142e405c6737167d9615d8a42957678c195b&timestamp=1493869279&nonce=788422923&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:41:49+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=68bcad9742b3973cd921feb2fc20562b3484c253&timestamp=1493869328&nonce=1697288882&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T11:42:18+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=9e7a774c7a5326c99e23449da7a5c1f9686fadf1&timestamp=1493869357&nonce=1243712638&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:43:06+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=3c32f9b4a27c4075d414924355af63d7ebd27faf&timestamp=1493869406&nonce=146277829&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:43:36+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=a87aa0b93727ded653badeabc40d5e5e0091e692&timestamp=1493869435&nonce=329264831&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:44:50+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=496a51a9e59a94936f264524ce8fbdd34f39d9b1&timestamp=1493869509&nonce=1668695874&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:45:54+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=9697b8fef9287cc2d1659e3d8676478a9f5f13ea&timestamp=1493869574&nonce=1071943705&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:48:47+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=c598492cddf0d7456d69f2986584800997f8ed73&timestamp=1493869747&nonce=1396449352&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:49:51+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=03f64378120a9ea0b29fd92e0d7d4575f5fa41dc&echostr=8402153533849136375&timestamp=1493869811&nonce=1051792439
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:50:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=4c5124dad00e0a5102debd94bf582b8c6a754999&echostr=6615090253266862078&timestamp=1493869822&nonce=8824025
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:50:06+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=dd3ff0cbb9af5388881d439401d9b59b80bf847f&echostr=9153935010559930255&timestamp=1493869826&nonce=704327097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:50:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=2b198878401dfd0f0d7a72d3d1355dba83d93684&echostr=8969870686254968218&timestamp=1493869832&nonce=1715889405
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:51:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=026e6ce2650182a81c7e7818ab9c1a966f911f25&echostr=5605496926902415231&timestamp=1493869903&nonce=691971168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:51:24+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=78b095ea20455d6295bdfa8c9219d936caaca701&echostr=4205224596345955665&timestamp=1493869905&nonce=1312338359
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:51:25+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=58b7257c51509981fa94dd1d6370e717da837647&echostr=1182644475689626965&timestamp=1493869905&nonce=425550239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:51:25+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=8574e0efba81294ce163575ccd9994a9ad54f993&echostr=9156161006316742010&timestamp=1493869906&nonce=1446653044
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:51:29+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=9f9207c280e9df7b58299b787f3e654ce80051f8&echostr=7585621993917693279&timestamp=1493869910&nonce=1109468017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:52:08+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=4b004a7ca5f7f6aef3652065335d6ac51a759f9c&echostr=5609192122955527550&timestamp=1493869950&nonce=1156165602
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+
+[ 2017-05-04T11:53:18+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=de49eb2e1a990187982f08fce9044af45379268c&timestamp=1493870019&nonce=184601510&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T11:53:38+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=afa9086428da7d5774f6a5b140dc761a80ad6f20&timestamp=1493870038&nonce=176598459&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T11:56:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=0d8edbf5ae5421d82a7e2499c28a5f4053396d88&timestamp=1493870196&nonce=1998738950&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\test()
+
+[ 2017-05-04T11:59:32+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=62d67fd9cf59fac7fcaa184d2b28bbf8253f19b5&timestamp=1493870394&nonce=755594996&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T12:01:24+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=71c7d4348045de7fdbf19116e1e721709bc3054a&timestamp=1493870506&nonce=509068477&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T12:02:01+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=87fe3fe06798813e3b29f8a59009cafdae8881b1&timestamp=1493870543&nonce=1566724419&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMSG()
+
+[ 2017-05-04T12:03:37+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=d49df5274b65cf78ae3b3d5e5826f968b569db9d&timestamp=1493870639&nonce=1814202695&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T12:03:44+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=f8b81a7cfbd08f03c7dd8d0cfed4593fc6e5c8d5&timestamp=1493870647&nonce=1120254005&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T12:04:18+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=9883bb2292fcc458b0f0dda5a32eefcd4f2feaa8&timestamp=1493870680&nonce=227119178&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Call to undefined function Home\Controller\responseMsg()
+
+[ 2017-05-04T12:07:37+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=226a4eb8502b6d9844dbe0d8895bd0318957236d&timestamp=1493870880&nonce=681537056&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Think\Controller:responseMsg方法不存在！
+
+[ 2017-05-04T12:07:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=7a6af2620887e7c0f88448d1ec9a40a7f68e490b&timestamp=1493870889&nonce=1064630487&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+ERR: Think\Controller:responseMsg方法不存在！
+
+[ 2017-05-04T12:08:17+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=1384b68e0e3a090f309176e4f7af0b71df1b5737&timestamp=1493870912&nonce=1184364435&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `shop_user` (`username`,`addtime`) VALUES ('okMCEwtUwXBFxGpuOCQRWwqBfA00','1493870897') [ RunTime:0.0000s ]
+
+[ 2017-05-04T12:08:18+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=1384b68e0e3a090f309176e4f7af0b71df1b5737&timestamp=1493870912&nonce=1184364435&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-04T12:08:20+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=08c5f074dddbab910efb73d97651a302a373dcf0&timestamp=1493870923&nonce=148308334&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Controller:_doText方法不存在！
+
+[ 2017-05-04T12:11:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=63c4a82e475660e7db26b01a58f70f2b73298035&timestamp=1493871107&nonce=429608556&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-04T12:11:28+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=af18b8fba5f83222316defa2a591a4785f9d1abb&timestamp=1493871112&nonce=472677450&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-04T12:16:34+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=078872bf5af8ee8ee0efba343e6b37759ed50078&timestamp=1493871419&nonce=1856673841&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_goods`  [ RunTime:0.0000s ]
+ERR: Think\Controller:_msgNews方法不存在！
+
+[ 2017-05-04T12:17:00+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=6a61ed42cd61370803d3a3e760c556d6ab70c83e&timestamp=1493871444&nonce=1884992803&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0010s ]
+ERR: Think\Controller:_msgNews方法不存在！
+
+[ 2017-05-04T12:17:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=49b2869e6bebb2e22e47d7495ac163d764fe3413&timestamp=1493871460&nonce=1541568718&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Controller:_msgNews方法不存在！
+
+[ 2017-05-04T12:18:30+08:00 ] 127.0.0.1 /shop/index.php/Home/Wechat/index?signature=07b4a630aa4ed54a7f77bb3ede7c9cb4b37e7e08&timestamp=1493871534&nonce=140644078&openid=okMCEwtUwXBFxGpuOCQRWwqBfA00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant TOKEN already defined C:\wamp64\www\shop\Application\Home\Common\Wechat.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `shop_user` WHERE ( username='okMCEwtUwXBFxGpuOCQRWwqBfA00' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T17:36:57+08:00 ] ::1 /shop/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_ad` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_ad`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_goods` WHERE `is_hot` = 1 AND `is_delete` = 0 LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_goods` WHERE `is_new` = 1 AND `is_delete` = 0 LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_goods` WHERE `is_delete` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_seo C:\wamp64\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: page_seo C:\wamp64\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: visitor C:\wamp64\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 251 行.
+NOTIC: [8] Undefined variable: async_sendmail C:\wamp64\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 252 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,60 @@
+[ 2017-05-04T00:24:08+08:00 ] ::1 /shop/index.php/keyword/addmess/op/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Keyword
+
+[ 2017-05-04T00:24:12+08:00 ] ::1 /shop/index.php/keyword/addmess/op/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Keyword
+
+[ 2017-05-04T01:06:25+08:00 ] ::1 /shop/Public_/weixin/css/dingcan/css2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public_
+
+[ 2017-05-04T01:06:25+08:00 ] ::1 /shop/Public_/weixin/images/dingcan/addpageup_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_
+
+[ 2017-05-04T01:06:25+08:00 ] ::1 /shop/Public_/weixin/js/dingcan/addmess2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_
+
+[ 2017-05-04T01:06:25+08:00 ] ::1 /shop/Public_/weixin/js/dingcan/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_
+
+[ 2017-05-04T01:06:25+08:00 ] ::1 /shop/Public_/weixin/js/dingcan/addmess2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_
+
+[ 2017-05-04T01:06:35+08:00 ] ::1 /shop/Public_/weixin/images/dingcan/addpageup_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_
+
+[ 2017-05-04T17:36:58+08:00 ] ::1 /shop/Public/images/store_logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-04T17:36:58+08:00 ] ::1 /shop/Public/images/store_logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+

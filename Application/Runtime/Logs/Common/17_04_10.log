@@ -1,0 +1,12 @@
+[ 2017-04-10T11:50:43+08:00 ] ::1 /shop/index.php/Attribute/index/type_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Attribute
+
+[ 2017-04-10T11:51:29+08:00 ] ::1 /shop/index.php/Attribute/index/type_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Attribute
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>用户登入-{$page_seo.title}</title>
+<link href="__PUBLIC__/weixin/css/shop.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/weixin/js/index.js"></script>
+<script type="text/javascript" src="__PUBLIC__/weixin/js/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/weixin/js/ecmall.js" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/weixin/js/touchslider.js" charset="utf-8"></script>
+
+<script charset="utf-8" type="text/javascript" src="__PUBLIC__/weixin/js/jquery_002.js"></script></head>
+
+<body>
+<include file="public:head" />
+
+<script type="text/javascript">
+$(function(){	
+
+	
+    $('#login_form').validate({
+//        errorPlacement: function(error, element){
+//            $(element).next("label").append(error);
+//        },
+//        success       : function(label){
+//            //label.addClass('validate_right').text('OK!');
+//        },
+//		onsubmit:true,// 是否在提交是验证
+//        onkeyup : false,
+//        rules : {
+//            username : {
+//                required : true,
+//			/*	remote   : {
+//					url:'index.php?app=member&act=check_user&ajax=1&login=1',
+//					type:'get',
+//					data:{
+//						username : function(){
+//                        return $('#username').val();
+//                        }
+//					}
+//				}*/
+//            },
+//            password : {
+//                required : true
+//            },
+//
+//        },
+        messages : {
+            username : {
+                required : '您必须提供一个用户名',
+				remote   : '用户名不存在！'
+            },
+            password  : {
+                required : '您必须提供一个密码'
+            }
+        },
+}); 
+});
+</script>
+
+<div id="content">
+    <form method="post" id="login_form" action="{:U('User/login')}">
+            <input name="username" id="username" class="text width5" placeholder="用户名" type="text">
+            <label></label>
+            <input name="password" id="password" class="text width5" placeholder="密 码" type="password">
+            <label></label>                              
+            <label id="login_text"></label>
+            <input name="Submit" value="登陆" class="enter" type="submit">
+            <a href="#" class="clew" style="display:none;">忘记密码？</a>
+           <!-- <input name="ret_url" value=" " type="hidden">-->
+    </form>
+    <div class="login_right">
+        <h4>如果您还不是会员，请<a href="{:U('User/register')}" title="立即注册">立即注册</a></h4>
+    </div>
+</div>
+
+<include file="public:footer" />
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<include file="public:header"/>
+
+<!--栏目列表-->
+<div class="pad_lr_10">
+    <div class="J_tablelist table_list" data-acturi="{:U('Category/ajax_edit')}">
+        <table width="100%" cellspacing="0" id="J_cate_tree">
+            <thead>
+            <tr>
+                <th width="30"><input type="checkbox" name="checkall" class="J_checkall"></th>
+
+                <th>分类名称</th>
+                <th width="180">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="data" id="val">
+                <tr id='node-340'>
+                    <td align='center'><input type='checkbox' value='340' class='J_checkitem'></td>
+
+                    <td><span data-tdtype='edit' data-field='name' data-id='340' class='tdedit' style='color:'>{$val.cat_name}</span>
+                    </td>
+
+
+                    <td align='center'>
+                        <a href="{:U('Category/edit',array('id'=>$val['id']))}" class=""
+                           data-uri="" data-title=""
+                           data-id="edit" data-width="520" data-height="360">编辑</a> |
+                        <a onclick="return confirm('确定要删除吗？')" href="{:U('Category/delete',array('id'=>$val['id']))}" class="" data-acttype="ajax"
+                           data-uri="" data-msg="">删除</a>
+                    </td>
+                </tr>
+            </volist>
+            <tr><td colspan="99" align="right">{$page}</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<include file="public:footer"/>
+<script src="__PUBLIC__/js/jquery/plugins/jquery.treetable.js"></script>
+<script>
+    $(function () {
+        //initialState:'expanded'
+        $("#J_cate_tree").treeTable({indent: 20, treeColumn: 2});
+        $(".J_preview").preview();
+    });
+</script>
+</body>
+</html>

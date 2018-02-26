@@ -1,0 +1,67 @@
+<include file="public:header"/>
+<!--栏目列表-->
+<div class="pad_lr_10">
+    <form name="searchform" method="get">
+        <table width="100%" cellspacing="0" class="search_form">
+            <tbody>
+            <tr>
+                <td>
+                    <div class="explain_col">
+                        搜索：
+                        <input name="attr_name" type="text" class="input-text" size="25" value="{$search.attr_name}" />
+                        <input type="submit" name="search" class="btn" value="搜索" />
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+    <div class="J_tablelist table_list" data-acturi="{:U('item_cate/ajax_edit')}">
+        <table width="100%" cellspacing="0" id="J_cate_tree">
+            <thead>
+            <tr>
+                <th width="30"><input type="checkbox" name="checkall" class="J_checkall"></th>
+                <th>属性名称</th>
+                <th>属性类型</th>
+                <th>属性可选值</th>
+                <th width="180">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="data" id="val">
+                <tr>
+                    <td align='center'><input type='checkbox' value='340' class='J_checkitem'></td>
+
+                    <td align="center"><span data-tdtype='edit' data-field='name' data-id='340' class='tdedit' style='color:'>{$val.attr_name}</span>
+                    </td>
+                    <td align="center"><span data-tdtype='edit' data-field='name' data-id='340' class='tdedit' style='color:'>{$val.attr_type}</span>
+                    </td>
+                    <td align="center"><span data-tdtype='edit' data-field='name' data-id='340' class='tdedit' style='color:'>{$val.attr_option_values}</span>
+                    </td>
+                    <td align='center'>
+
+                        <a href="{:U('Attribute/edit',array('id'=>$val['id'],'type_id'=>$val['type_id'],'p'=>I('get.p',1    )))}" class="" data-uri="" data-title="" data-id="edit" data-width="520" data-height="360">编辑</a> |
+                        <a onclick="return confirm('确定要删除吗？')" href="{:U('Attribute/delete',array('id'=>$val['id']))}" class="" data-acttype="ajax"
+                           data-uri="" data-msg="">删除</a>
+                    </td>
+                </tr>
+            </volist>
+            <tr><td colspan="20" align="right">{$page}</td></tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</div>
+
+<include file="public:footer"/>
+<script src="__PUBLIC__/js/jquery/plugins/jquery.treetable.js"></script>
+<script>
+    $(function () {
+        //initialState:'expanded'
+        $("#J_cate_tree").treeTable({indent: 20, treeColumn: 2});
+        $(".J_preview").preview();
+    });
+</script>
+</body>
+</html>

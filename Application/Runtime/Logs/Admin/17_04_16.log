@@ -1,0 +1,317 @@
+[ 2017-04-16T13:31:42+08:00 ] ::1 /shop/index.php/Admin/Goods/edit/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods_attr` [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.* FROM shop_goods_attr a LEFT JOIN shop_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '4'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods_imgs` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_goods_imgs` WHERE `goods_id` = 4  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T13:31:53+08:00 ] ::1 /shop/index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `shop_goods_attr` [ RunTime:0.0010s ]
+SQL: DELETE FROM `shop_goods_attr` WHERE `goods_id` = 4 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `shop_goods_imgs` [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods_imgs` (`goods_id`,`img`,`sm_img`) VALUES ('4','Goods/2017-04-16/58f301c9cc7a2.jpg','Goods/2017-04-16/thumb_0_58f301c9cc7a2.jpg') [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods_imgs` (`goods_id`,`img`,`sm_img`) VALUES ('4','Goods/2017-04-16/58f301c9d15c3.jpg','Goods/2017-04-16/thumb_0_58f301c9d15c3.jpg') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: img C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 197 行.
+SQL: UPDATE `shop_goods` SET `cat_id`='3',`goods_name`='测试1',`goods_intro`='',`price`='12.50',`is_on_sale`='1',`freight`='0.00',`goods_desc`='',`id`='4' WHERE `id` = 4 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T13:31:55+08:00 ] ::1 /shop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM shop_goods a JOIN shop_category b ON a.cat_id=b.id  WHERE `is_on_sale` = 1 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.cat_name FROM shop_goods a JOIN shop_category b ON a.cat_id=b.id  WHERE `is_on_sale` = 1 AND `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 28 行.
+NOTIC: [8] Undefined variable: sm C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 30 行.
+NOTIC: [8] Undefined index: selected_ids C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 37 行.
+NOTIC: [8] Undefined index: cate_id C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 38 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T13:36:04+08:00 ] ::1 /shop/index.php/Admin/Goods/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods_attr` [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.* FROM shop_goods_attr a LEFT JOIN shop_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '3'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods_imgs` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_goods_imgs` WHERE `goods_id` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T13:36:15+08:00 ] ::1 /shop/index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `shop_goods_attr` [ RunTime:0.0010s ]
+SQL: DELETE FROM `shop_goods_attr` WHERE `goods_id` = 3 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `shop_goods_imgs` [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods_imgs` (`goods_id`,`img`,`sm_img`) VALUES ('3','Goods/2017-04-16/58f302cfe84ea.jpg','Goods/2017-04-16/thumb_0_58f302cfe84ea.jpg') [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods_imgs` (`goods_id`,`img`,`sm_img`) VALUES ('3','Goods/2017-04-16/58f302cfed30b.jpg','Goods/2017-04-16/thumb_0_58f302cfed30b.jpg') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: img C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 197 行.
+SQL: UPDATE `shop_goods` SET `cat_id`='4',`goods_name`='浙江特产纯手工制作宁波俞家水磨年糕',`goods_intro`='浙江特产纯手工制作宁波俞家水磨年糕',`price`='16.80',`is_new`='1',`is_hot`='1',`is_on_sale`='1',`freight`='0.00',`goods_desc`='',`id`='3' WHERE `id` = 3 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T13:36:17+08:00 ] ::1 /shop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM shop_goods a JOIN shop_category b ON a.cat_id=b.id  WHERE `is_on_sale` = 1 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.cat_name FROM shop_goods a JOIN shop_category b ON a.cat_id=b.id  WHERE `is_on_sale` = 1 AND `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 28 行.
+NOTIC: [8] Undefined variable: sm C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 30 行.
+NOTIC: [8] Undefined index: selected_ids C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 37 行.
+NOTIC: [8] Undefined index: cate_id C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 38 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T13:36:22+08:00 ] ::1 /shop/index.php/Admin/Goods/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_attribute`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods_attr` [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.* FROM shop_goods_attr a LEFT JOIN shop_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '3'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods_imgs` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_goods_imgs` WHERE `goods_id` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T14:25:26+08:00 ] ::1 /shop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) C:\wamp64\www\shop\Application\Admin\Model\GoodsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM shop_goods a JOIN shop_category b ON a.cat_id=b.id  WHERE `is_on_sale` = 1 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT a.*,b.cat_name FROM shop_goods a JOIN shop_category b ON a.cat_id=b.id  WHERE `is_on_sale` = 1 AND `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 28 行.
+NOTIC: [8] Undefined variable: sm C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 30 行.
+NOTIC: [8] Undefined index: selected_ids C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 37 行.
+NOTIC: [8] Undefined index: cate_id C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 38 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+NOTIC: [8] Undefined index: colors C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 99 行.
+NOTIC: [8] Undefined variable: menuid C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T14:25:28+08:00 ] ::1 /shop/index.php/Admin/Goods/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_attribute`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.* FROM shop_goods_attr a LEFT JOIN shop_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '2'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods_imgs` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_goods_imgs` WHERE `goods_id` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T14:25:34+08:00 ] ::1 /shop/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_attribute` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_attribute` LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7799ca8999b7af3521e02a2920b31d5a.php 第 14 行.
+NOTIC: [8] Undefined index: width C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7799ca8999b7af3521e02a2920b31d5a.php 第 14 行.
+NOTIC: [8] Undefined index: height C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7799ca8999b7af3521e02a2920b31d5a.php 第 14 行.
+NOTIC: [8] Undefined index: attr_name C:\wamp64\www\shop\Application\Runtime\Cache\Admin\7799ca8999b7af3521e02a2920b31d5a.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
